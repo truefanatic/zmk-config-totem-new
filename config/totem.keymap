@@ -21,6 +21,7 @@
         FonBothSideKeys {
             bindings = <&kp F>;
             key-positions = <20 31>;
+            layers = <3>;
         };
     };
 
