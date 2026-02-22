@@ -15,6 +15,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        FonBothSideKeys {
+            bindings = <&kp F>;
+            key-positions = <20 31>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
